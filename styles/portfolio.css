@@ -1,8 +1,13 @@
+/* common shared style */
+body
+  {
+      font-family: "Open Sans", sans-serif;}
 /* nav related styles */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .orange{
   color: #fd6e0a;;
@@ -10,13 +15,8 @@ nav {
 .mary{
     font-size: 45px;
     color: #181818;
-    font-weight: 800;
+    font-weight: 800
 }
-/* common shared style */
-body
-  {
-      font-family: "Open Sans", sans-serif;
-    }
 nav > ul{
     display: flex;
     align-items: center;
@@ -40,4 +40,17 @@ nav a{
     font-style:bold ;
     padding: 18px 36px;
     border: 0;
-}t
+}
+/* header related */
+.header{
+    background-color: rgb(255, 248, 243);
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display:flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 584px;
+    height: 676px;
+}
